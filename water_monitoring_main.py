@@ -42,5 +42,4 @@ scheduler.SCH_Add_Task(watermonitoring.WaterMonitoringTask_Run, 1, 1)
 while True:
     scheduler.SCH_Update()
     scheduler.SCH_Dispatch_Tasks()
-
     time.sleep(0.1)
